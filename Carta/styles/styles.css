@@ -1,0 +1,164 @@
+
+   	 body{
+   		 background-color:#425531;
+   	 }
+   	 .carta{
+   		 position: relative;
+   		 border: 1px solid black;
+   		 height:200px ;
+   		 width:120px ;
+   		 border-radius: 10px;
+   		 background-color: white;
+   		 left: 600px;
+   		 top: 20px;
+		 animation-name:carta1;
+		 animation-duration:10s;
+		 animation-direction:reverse;
+		 z-index:4;
+		
+   	 }
+	  @keyframes carta1 {
+	 0% {left:600px; top:20px; transform: rotate(0deg);}
+	 25%{left:750px; top:20px; transform: rotate(35deg);}
+	 50%{left:750px; top:20px; transform: rotate(35deg);}
+	 75%{left:750px; top:20px; transform: rotate(35deg);}
+	 100%{left:600px; top:20px; transform: rotate(0deg);}
+	 
+	  }
+	 .carta2{
+   		 position: relative;
+   		 border: 1px solid black;
+   		 height:200px ;
+   		 width:120px ;
+   		 border-radius: 10px;
+   		 background-color: white;
+   		 left: 600px;
+   		 top: -182px;
+		 color: red;
+		 animation-name: carta2;
+		 animation-duration:10s;
+		 animation-direction:reverse;
+		 z-index:1;
+   	 }
+	 @keyframes carta2 {
+	 0% {left:600px; top:-182px; transform: rotate(0deg);}
+	 25%{left:450px; top:-182px; transform: rotate(-35deg);}
+	 50%{left:450px; top:-182px; transform: rotate(-35deg);}
+	 75%{left:450px; top:-182px; transform: rotate(-35deg);}
+	 100%{left:600px; top:-182px; transform: rotate(0deg);}	 	 
+	  }
+	 .carta3{
+   		 position: relative;
+   		 border: 1px solid black;
+   		 height:200px ;
+   		 width:120px ;
+   		 border-radius: 10px;
+   		 background-color: white;
+   		 left: 600px;
+   		 top: -384px;
+		 animation-name:carta3;
+		 animation-duration:10s;
+		 animation-direction:reverse;
+		 z-index:2;
+   	 }
+	 @keyframes carta3 {
+	 0% {left:600px; top:-384px; transform: rotate(0deg);}
+	 25%{left:550px; top:-384px; transform: rotate(-20deg);}
+	 50%{left:550px; top:-384px; transform: rotate(-20deg);}
+	 75%{left:550px; top:-384px; transform: rotate(-20deg);}
+	 100%{left:600px; top:-384px; transform: rotate(0deg);}	 
+	  }
+	 .carta4{
+   		 position: relative;
+   		 border: 1px solid black;
+   		 height:200px ;
+   		 width:120px ;
+   		 border-radius: 10px;
+   		 background-color: white;
+   		 left: 600px;
+   		 top: -586px;
+		 color:red;
+		 animation-name:carta4;
+		 animation-duration:10s;
+		 animation-direction:reverse;
+		 z-index:3;
+   	 }
+	   @keyframes carta4 {
+	 0% {left:600px; top:-586px; transform: rotate(0deg);}
+	 25%{left:650px; top:-586px; transform: rotate(20deg);}
+	 50%{left:650px; top:-586px; transform: rotate(20deg);}
+	 75%{left:650px; top:-586px; transform: rotate(20deg);}
+	 100%{left:600px; top:-586px; transform: rotate(0deg);}	 
+	  }
+   	 .numeropalo1{
+   		 font-size: 20px;
+   	 }
+   	 .numeropalo2{
+   		 font-size: 20px;
+   		 position: absolute;
+   		 transform: rotate(180deg);
+   		 top: 150;
+   		 right: 0;
+   	 }
+   	 .figura{
+   		 position: absolute;
+   		 font-size: 50px;
+   		 left: 15px;
+   		 top: 10px;
+
+
+   	 }
+	 #trebol4{
+		font-size: 50px;
+		position: absolute;
+		top: 43px;
+		left: 43px;
+	 
+	 }
+	 .figura1{
+	     position: absolute;
+   		 font-size: 50px;
+   		 left: 55px;
+   		 top: -0px;
+	 }
+	 .figura4{
+   		 position: absolute;
+   		 font-size: 50px;
+   		 left: 20px;
+   		 top: 10px;
+
+   	 }
+	 .figura3{
+   		 position: absolute;
+   		 font-size: 50px;
+   		 left: 15px;
+   		 top: 40px;
+	 }
+	 .figura6{
+   		 position: absolute;
+   		 font-size: 50px;
+   		 left: 75px;
+   		 top: 40px;
+	 }
+	 .figura5{
+   		 position: absolute;
+   		 font-size: 50px;
+   		 left: 50px;
+   		 top: -0px;
+
+   	 }
+   	 #trebol3{
+   		 transform: rotate(180deg);
+   	 }
+	.figura2{
+		position: absolute;
+   		 font-size: 50px;
+   		 left: 43px;
+   		 top: 70px;
+	}
+	#pica2{
+	transform: rotate(180deg);	
+	}
+	#pica4{
+	transform: rotate(180deg);	
+	}
